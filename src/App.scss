@@ -1,0 +1,13 @@
+.UseState {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  .Box {
+    margin: 0.5rem;
+    label {
+      margin-right: 1rem;
+    }
+  }
+}
