@@ -1,19 +1,30 @@
-.UseState {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  .Box {
-    margin: 0.5rem;
-    label {
-      margin-right: 1rem;
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap");
+.App {
+  .UseState {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    .Box {
+      margin: 0.5rem;
+      label {
+        margin-right: 1rem;
+      }
     }
   }
-}
-.UseEffect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  .UseEffect {
+    background-color: #454545;
+    color: white;
+    font-family: "Geologica", sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    span {
+      color: #2e86c1;
+      padding-left: 0.5rem;
+    }
+  }
 }
